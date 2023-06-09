@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Dark Mode */
+
+body.dark-mode {
+    background-color: #212121;
+    color: #fff;
+}
+
+.input-container.dark-mode label {
+    color: #fff;
+}
+
+.input-container.dark-mode input[type="text"] {
+    background-color: #333;
+    color: #fff;
+}
+
+.button.dark-mode {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.button.dark-mode:hover {
+    background-color: #0056b3;
+}
